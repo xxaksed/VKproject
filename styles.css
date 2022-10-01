@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #151316;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.navbar {
+    width: 100%;
+    height: 48px;
+    background-color: #232124 ;
+    min-width: 1600px;
+    position: fixed;
+}
+
+.page-layout {
+    min-width: 1440px;
+    padding-top: 50px;
+}
+
+.logo {
+    height: 48px;
+    width: 24px;
+    float: left;
+    margin-left: 234px;
+    margin-right: 175px;
+}
+
+.logo img {
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+}
+
+.text {
+    height: 32px;
+    width: 100px;
+    float: left;
+    margin-left: 66px;
+    padding-top: 15.5px;
+}
+
+.text a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    height: 48px;
+    width: 250px;
+    margin-left: 36px;
+    float: left;
+}
+
+.search input {
+    padding: 0 0 0 34px;
+    width: 230px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #484848;
+    border: none;
+    margin-top: 8px;
+    outline: none;
+}
+
+input {
+    color: white;
+}
+
+.kolokol {
+    width: 48px;
+    height: 48px;
+    float: left;
+    transition: .1s ease;
+}
+
+.kolokol img{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.kolokol:hover{
+    background-color: #484848;
+}
+
+.pleer{
+    height: 48px;
+    float: left;
+    transition: .1s ease;
+    width: 267px;
+}
+
+.pleer:hover{
+    background-color: #484848;
+}
+
+.pleer img{
+    float: left;
+    margin-right: 3px;
+}
+
+.music{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+
+.inner-layout{
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.minimemu { 
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin-left: 130px;
+}
+
+.minimemu:hover {
+    background-color: #484848 
+}
+
+.minimemu img {
+    margin-top: 14px;
+    margin-left: 12px;
+}
+
+.miniavatar {
+    width: 68px;
+    height: 48px;
+    float: left;
+}
+
+.miniavatar img {
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.miniavatar:hover {
+    background-color: #484848
+}
+
+.menu {
+    float: left;
+    margin-top: 15px;
+    width: 126px;
+    height: 425px;
+    margin-left: 479px;
+}
+
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-left: 12px;
+    float: left;
+
+}
+
+.menu div {
+    width: 145px;
+    height: 30px;
+    border-radius: 3px;
+    float: left;
+}
+
+.menu div:hover {
+    background-color: #3b3b3b
+}
+
+
+.left-content {
+    width: 230px;
+    height: 2200px;
+    float: left;
+    margin-left: 28px;
+
+}
+
+.right-content {
+    width: 550;
+    height: 2200px;
+    float: left;
+    display: block;
+    margin-left: 15px;
+}
+
+.avatar-bar{
+    background: #232124;
+    height: 455px;
+    width: 230px;
+    border-radius: 15px;
+    float: left;
+    margin-top: 12px;
+
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    margin-bottom: -186px;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+
+.redact {
+    width: 200px;
+    height: 30px;
+    margin-top: 197px;
+    margin-left: 15px;
+    background-color: #484848;
+    border-radius: 6px;
+}
+
+.redact a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.avatar-info{
+    margin-top: 15px;
+}
+
+.avatar-info a{
+    list-style: none;
+    text-decoration: none;
+    color: #797979;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 5px;  
+}
+
+.avatar-info div{
+    width: 230px;
+    height: 36px;
+}
+
+.avatar-info div:hover{
+    background-color: #3b3b3b
+}
+
+.about-me{
+    background: #232124;
+    width: 550px;
+    height: 238px;
+    border-radius: 15px;
+    display: block;
+    margin-top: 12px;
+
+}
+
+.name{
+    color: white;
+    font-size: 23;
+}
+
+.goga{
+    color: white;
+    font-size: 13;
+}
+
+.name-nik{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.status {
+    float: right;
+    margin-top: 21px;
+    margin-right: 17px;
+    color: #818181;
+    font-size: 14;
+}
+
+.birthday-text a {
+    list-style: none;
+    text-decoration: none;
+    color: #818181;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 14;
+    float: left;
+}
+
+.data a {
+    list-style: none;
+    text-decoration: none;
+    color: #80b4dc;
+    float: left;
+    margin-top: 33px;
+    margin-left: 64px;
+    font-size: 14;
+}
+
+.full-info {
+    width: 510px;
+    height: 34px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.full-info:hover {
+    background-color: #3b3b3b
+}
+
+.full-info a {
+    list-style: none;
+    text-decoration: none;
+    color: #80b4dc;
+    margin-left: 160px;
+    padding-top: 9px;
+    float: left;
+    font-size: 14;
+}
+
+.number {
+    margin-top: 10px;
+    float: left;
+    font-size: 23;
+}
+
+.number a {
+    list-style: none;
+    text-decoration: none;
+    color: #80b4dc;
+    margin-left: 69px;
+}
+
+.text-number {
+    float: left;
+    font-size: 14;
+    margin-left: 39px;
+} 
+
+.text-number a {
+    list-style: none;
+    text-decoration: none;
+    color: #818181;
+    margin-left: 30px;
+    float: left;
+}
+
+.text-number a:hover {
+    color: #80b4dc;
+}
+
+.friends {
+    padding-right: 21px;
+}
+
+.photos {
+    margin-right: -15px;
+}
+
+.photo-bar {
+    width: 550px;
+    height: 190px;
+    float: left;
+    background: #232124;
+    border-radius: 15px;
+    margin-top: 14px;
+
+}
+
+.text-photos {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-top: 9px;
+    margin-left: 21px;
+}
+
+.number-photos {
+    list-style: none;
+    text-decoration: none;
+    color: #818181;
+    margin-left: 8px;
+    margin-top: 10px;
+    float: left;
+}
+
+.show-map a {
+    list-style: none;
+    text-decoration: none;
+    color: #818181;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.photos-on-bar img {
+    float: left;
+    margin-top: 17px;
+    margin-left: 19px;
+}
+
+.posts-create {
+    width: 550px;
+    height: 52px;
+    float: left;
+    border-radius: 12px;
+    background: #232124;
+    margin-top: 14px;
+}
+
+.miniavtar-post {
+    height: 52px;
+    float: left;
+    margin-left: 18px;
+}
+
+.miniavtar-post img {
+    margin-top: 9px;
+}
+
+.button-post {
+    height: 52px;
+    float: right;
+    margin-right: 16px;
+}
+
+.button-post img {
+    margin-top: 11px;
+}
+
+.input {
+    background-color: #232124;
+    border: none;
+}
+
+.create-post input {
+    height: 52px;
+    width: 200px;
+    margin-left: 15px;
+    outline: none;
+}
+
+.link-to-profile {
+    background: #232124;
+    width: 230px;
+    height: 47px;
+    float: left;
+    border-radius: 8px;
+    margin-top: 14px;
+}
+
+.link-profile {
+    list-style: none;
+    text-decoration: none;
+    color: #80b4dc;
+    float: left;
+    margin-top: 15px;
+    margin-left: 56px;
+}
+
+.present {
+    float: left;
+    height: 121px;
+    width: 230px;
+    border-radius: 12px;
+    background:#232124;
+    margin-top: 14px;
+}
+
+.present a {
+    float: left;
+    margin-top: 11px;
+    font-size: 14px;
+}
+
+.present-text {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.present-number {
+    list-style: none;
+    text-decoration: none;
+    color: #818181;
+    margin-left: 6px;
+}
+
+.photo-presents img {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.friends-bord {
+    height:  424px;
+    width: 230px;
+    background:#232124;
+    border-radius: 12px;
+    float: left;
+    margin-top: 14px;
+}
+
+.friends-text-num {
+    float: left;
+    height: 40px;
+}
+
+.friends-text-num a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 12px;
+    float: left;
+}
+
+.friends-text {
+    color: white;
+    margin-left: 18px;
+}
+
+.friends-text a {
+    margin-top: 1px;
+    float: left;
+}
+
+.friends-number {
+    color: #818181;
+    margin-left: 5px;
+}
+
+.ads {
+    float: right;
+    height: 40px;
+}
+
+.ads a {
+    color: #818181;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 12px;
+    float: left;
+}
+
+.photo-friends img {
+    float: left;
+    margin-left: 11px;
+}
+
+.friends-online {
+    float: left;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.friends-online a {
+    float: left;
+}
+
+.friends-online-text {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.friends-online-num {
+    list-style: none;
+    text-decoration: none;
+    color: #818181;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.photo-friends-online img {
+    float: left;
+    margin-left: 11px;
+}
+
+.last-bord {
+    height: 960.75px;
+    width: 230px;
+    float: left;
+    border-radius: 12px;
+    background: #232124;
+    margin-top: 14px;
+}
+
+.subs {
+    height: 40px;
+    float: left;
+    margin-left: 18px;
+}
+
+.subs a {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    font-size: 14px;
+}
+
+.subs-text {
+    color: white;
+    margin-top: 12px;
+}
+
+.subs-num {
+    color: #818181;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.subs-avatar img {
+    float: left;
+    margin-left: 15px;
+}
+
+.video-bar {
+    height: 40px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.video-bar a {
+    float: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+.video-text {
+    color: white;
+    margin-top: 12px;
+}
+
+.video-num {
+    color: #818181;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.diracky-russky a {
+    list-style: none;
+    text-decoration: none;
+    color: #80b4dc;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+.possat-zavet a{
+    list-style: none;
+    text-decoration: none;
+    color: #80b4dc;
+    float: left;
+    margin-top: 3px;
+}
+
+.audio-text-num {
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+}
+
+.audio-text-num a {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+
+.audio-text {
+    color: white;
+    margin-top: 12px;
+}
+
+.audio-num {
+    color: #818181;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.audio-photo img {
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: -7px;
+}
+
+.post-on-wall {
+    width: 550px;
+    height: 576.67px;
+    background: #232124;
+    border-radius: 12px;
+    margin-top: 284px;
+}
+
+
+
+
